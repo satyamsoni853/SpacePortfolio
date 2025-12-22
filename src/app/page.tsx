@@ -12,17 +12,37 @@ import Footer from "@/components/main/Footer";
 export default function Home() {
   return (
     <main className="h-full w-full">
-      <div className="flex flex-col gap-20">
-        <Hero />
-        <WhoIAm />
-        <Skills />
-        <Services />
-        <Experience />
-        <Education />
-        <Projects />
-        <Certification />
-        <Contact />
-        <Footer />
+      <div className="flex flex-col">
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Hero />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <WhoIAm />
+        </section>
+        <section className="snap-start w-full min-h-screen">
+          <Skills />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Services />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Experience />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Education />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Projects />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Certification />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Contact />
+        </section>
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Footer />
+        </section>
       </div>
     </main>
   );

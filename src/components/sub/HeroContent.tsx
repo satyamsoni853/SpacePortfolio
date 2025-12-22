@@ -21,17 +21,17 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] w-fit flex flex-row items-center rounded-lg bg-[#00000088]"
+          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] w-fit flex flex-row items-center rounded-lg bg-white/80 dark:bg-[#00000088]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px] text-gray-300">
+          <h1 className="Welcome-text text-[13px] text-gray-800 dark:text-gray-300">
             Java Full Stack Developer
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-black dark:text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -66,7 +66,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-base md:text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-base md:text-lg text-gray-700 dark:text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m Satyam Soni, a passionate Java Full Stack Developer skilled
           in building responsive, efficient, and user-friendly applications
@@ -74,7 +74,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 px-4 shadow-button text-center text-white cursor-pointer rounded-lg max-w-[200px] bg-linear-to-r from-purple-500 to-cyan-500"
+          className="py-2 px-4 shadow-button text-center text-white cursor-pointer rounded-lg max-w-[200px] bg-linear-to-r from-purple-500 to-cyan-500 hover:opacity-90 transition-opacity"
         >
           Learn More!
         </motion.a>
@@ -86,11 +86,11 @@ const HeroContent = () => {
       >
         <div className="w-full md:w-[650px] h-auto flex items-center justify-center">
           <Image
-            src="/MyPhoto/satyam.png" // Updated path
-            alt="Satyam Soni" // Personal alt text
+            src="/MyPhoto/satyam.png"
+            alt="Satyam Soni"
             height={650}
             width={650}
-            className="w-full max-w-[400px] md:max-w-[450px] aspect-square object-cover rounded-full border-4 border-[#7042f88b]/50 shadow-[0_0_30px_rgba(112,66,248,0.5)]" // Circular styling
+            className="w-full max-w-[400px] md:max-w-[450px] aspect-square object-cover rounded-full border-4 border-[#7042f88b]/50 shadow-[0_0_30px_rgba(112,66,248,0.5)]"
           />
         </div>
       </motion.div>

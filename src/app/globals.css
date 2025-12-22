@@ -1,9 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
+  --foreground-rgb: 0, 0, 0; /* Default (Light) Text: Black */
+  --background-start-rgb: 255, 255, 255; /* Default (Light) Bg: White */
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
 }
 
 body {
@@ -14,9 +27,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  background-color: #030014; /* Deep Space Blue */
+  background-color: #ffffff; /* Light Mode Default */
   overflow-y: scroll;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Overrides */
+.dark body {
+  background-color: #030014;
+  color: #ffffff;
 }
 
 /* Scrollbar */

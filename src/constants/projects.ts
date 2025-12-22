@@ -1,5 +1,41 @@
 export const projectsData = [
     {
+        id: 14,
+        projectName: 'CloudFire IT Services',
+        projectDesc: 'Agency website built using Next.js, Three.js, and GSAP.',
+        tags: ['Next.js', 'Three.js', 'GSAP'],
+        code: 'https://github.com/satyamsoni853/cloudfireiitservice',
+        demo: 'http://manufac-ia6d.vercel.app/',
+        image: '/projects/CloudFire.png'
+    },
+    {
+        id: 15,
+        projectName: 'FuelPrep',
+        projectDesc: 'A React.js application for fuel preparation strategies.',
+        tags: ['React.js'],
+        code: 'https://github.com/satyamsoni853/manufac',
+        demo: 'https://manufac-nu.vercel.app/',
+        image: '/projects/FuelPrep.png'
+    },
+    {
+        id: 16,
+        projectName: 'Fashion Design Portfolio',
+        projectDesc: 'Portfolio website showcasing fashion designs, built with Next.js, GSAP, and Three.js.',
+        tags: ['Next.js', 'GSAP', 'Three.js'],
+        code: '',
+        demo: 'https://sneh-drall-fashion-design-portfolio-eight.vercel.app/',
+        image: '/projects/FashionDesgin.png'
+    },
+    {
+        id: 17,
+        projectName: 'TravelTips',
+        projectDesc: 'A freelancing project providing travel tips and guides.',
+        tags: ['Next.js'],
+        code: 'https://github.com/satyamsoni853/Travel-Trips',
+        demo: 'https://travel-trips-one.vercel.app/',
+        image: '/projects/TravelTips.png'
+    },
+    {
         id: 1,
         projectName: 'Uniisphere – Company Website',
         projectDesc: 'Developing Uniisphere’s official website using React JS.',
