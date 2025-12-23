@@ -45,7 +45,7 @@ const Education = () => {
             </div>
             <div className="flex flex-col items-end justify-center mt-5 md:mt-0">
               <span className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-linear-to-b from-purple-500 to-cyan-500">
-                2025
+                2021-2025
               </span>
               <span className="text-gray-400 text-sm tracking-widest uppercase mt-2">
                 Graduation Year
