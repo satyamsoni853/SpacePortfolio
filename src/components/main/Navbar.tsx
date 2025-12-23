@@ -22,12 +22,12 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <span
-            className={`${font.className} font-bold ml-[10px] hidden md:block text-black dark:text-gray-300 text-3xl`}
+            className={`${font.className} font-bold ml-[10px] hidden md:block text-gray-950 dark:text-gray-300 text-3xl`}
           >
             Satyam Soni
           </span>
           <span
-            className={`${font.className} font-bold ml-[10px] block md:hidden text-black dark:text-gray-300 text-2xl`}
+            className={`${font.className} font-bold ml-[10px] block md:hidden text-gray-950 dark:text-gray-300 text-2xl`}
           >
             SS
           </span>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] dark:bg-[#0300145e] bg-white/80 mr-[15px] px-[20px] py-[10px] rounded-full text-black dark:text-gray-200">
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-white/80 dark:bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-black dark:text-gray-200">
             <a
               href="#about-me"
               className="cursor-pointer hover:text-[#7042f8] dark:hover:text-white transition-colors"

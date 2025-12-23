@@ -24,7 +24,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] w-fit flex flex-row items-center rounded-lg bg-white/80 dark:bg-[#00000088]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px] text-gray-800 dark:text-gray-300">
+          <h1 className="Welcome-text text-[13px] text-gray-900 dark:text-gray-300">
             Java Full Stack Developer
           </h1>
         </motion.div>
@@ -66,7 +66,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-base md:text-lg text-gray-700 dark:text-gray-400 my-5 max-w-[600px]"
+          className="text-base md:text-lg text-gray-800 dark:text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m Satyam Soni, a passionate Java Full Stack Developer skilled
           in building responsive, efficient, and user-friendly applications

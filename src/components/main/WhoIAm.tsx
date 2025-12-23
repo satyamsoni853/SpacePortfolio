@@ -10,10 +10,10 @@ const WhoIAm = () => {
         Who I Am
       </h1>
 
-      <div className="md:w-[800px] w-full px-6 flex flex-col gap-6 text-gray-300 text-lg leading-relaxed text-center">
+      <div className="md:w-[800px] w-full px-6 flex flex-col gap-6 text-gray-600 dark:text-gray-300 text-lg leading-relaxed text-center">
         <p>
           I am a dedicated{" "}
-          <span className="text-white font-bold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold">
             Java Full Stack Developer
           </span>
           with a strong foundation in building scalable and efficient web
@@ -24,7 +24,7 @@ const WhoIAm = () => {
 
         <p>
           My technical journey is fueled by a passion for solving real-world
-          problems. Whether it's architecting a{" "}
+          problems. Whether it&apos;s architecting a{" "}
           <span className="text-purple-400">RESTful API</span> with Spring Boot
           or crafting a smooth{" "}
           <span className="text-cyan-400">User Experience</span> with Next.js, I
