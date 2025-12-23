@@ -26,12 +26,12 @@ export default function Home() {
           <Experience />
         </section>
         <section className="snap-start w-full min-h-screen flex items-center justify-center">
-          <Education />
-        </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
           <Services />
         </section>
-        
+        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+          <Education />
+        </section>
+
         <section className="snap-start w-full min-h-screen flex items-center justify-center">
           <Projects />
         </section>
