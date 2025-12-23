@@ -24,7 +24,7 @@ const ProjectCard = ({ src, title, description, tags, code, demo }: Props) => {
           className="w-full object-cover h-48"
         />
 
-        <div className="relative p-4">
+        <div className="relative p-4" suppressHydrationWarning>
           <h1 className="text-2xl font-semibold text-white">{title}</h1>
           <p className="mt-2 text-gray-300 text-sm leading-relaxed">
             {description}
