@@ -25,7 +25,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {/* Stars only visible in dark mode */}
-          <div className="hidden dark:block">
+          <div className="absolute top-0 left-0 w-full h-full z-[1]">
             <StarsCanvas />
           </div>
 

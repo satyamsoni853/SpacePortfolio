@@ -12,6 +12,7 @@ const experienceData = [
     description:
       "Freelance Next.js Developer working on a travel booking website. Responsible for frontend development, API integration, dynamic data rendering, and building responsive, user-friendly UI components using Next.js while ensuring smooth performance and cross-device compatibility.",
   },
+ 
   {
     title: "Front-End Developer",
     company: "Uniisphere Unified Pvt Ltd",
@@ -27,6 +28,22 @@ const experienceData = [
     location: "Bengaluru, India",
     description:
       "Completed Java Full Stack Development training. Gained hands-on experience in building end-to-end web applications. The training focused on practical implementation of Java, SQL, Servlets, and modern frontend technologies through real-world assignments and projects.",
+  },
+   {
+    title: "Front-End Developer",
+    company: "Apex Planet Software Pvt Ltd",
+    date: "Jan 2025 - Feb 2025",
+    location: "Bihar, India",
+    description:
+      "Contributed to front-end development, focusing on creating responsive and interactive user interfaces using modern web technologies. Collaborated with the team to deliver high-quality software solutions.",
+  },
+  {
+    title: "Front-End Developer Intern",
+    company: "CodSoft",
+    date: "Jan 2024 - March 2024",
+    location: "Remote",
+    description:
+      "Completed a web development internship, completing various tasks and projects such as a calculator, landing page, and portfolio website using HTML, CSS, and JavaScript.",
   },
 ];
 

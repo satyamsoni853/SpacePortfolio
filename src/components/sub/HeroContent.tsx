@@ -74,6 +74,9 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
+          href="https://www.linkedin.com/in/satyam-soni-90a618258/"
+          target="_blank"
+          rel="noreferrer"
           className="py-2 px-4 shadow-button text-center text-white cursor-pointer rounded-lg max-w-[200px] bg-linear-to-r from-purple-500 to-cyan-500 hover:opacity-90 transition-opacity"
         >
           Learn More!

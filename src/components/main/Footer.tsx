@@ -6,7 +6,8 @@ import {
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
-import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -15,10 +16,15 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://github.com/satyamsoni853"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-gray-500 transition-colors"
+            >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
+            </a>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxDiscordLogo />
               <span className="text-[15px] ml-[6px]">Discord</span>
@@ -30,23 +36,53 @@ const Footer = () => {
               <RxInstagramLogo />
               <span className="text-[15px] ml-[6px]">Instagram</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://x.com/crazy_soni_"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-blue-400 transition-colors"
+            >
               <RxTwitterLogo />
               <span className="text-[15px] ml-[6px]">Twitter</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/satyam-soni-90a618258/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-blue-500 transition-colors"
+            >
               <RxLinkedinLogo />
               <span className="text-[15px] ml-[6px]">Linkedin</span>
-            </p>
+            </a>
+            <a
+              href="https://www.facebook.com/people/Satyam-Soni/pfbid02azCfxLuCYWnHa8qveWvvqpXid895adqbQ9fmViwHQeyfSjNbCSqmSxcDRfHufTJl/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-blue-700 transition-colors"
+            >
+              <FaFacebook />
+              <span className="text-[15px] ml-[6px]">Facebook</span>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B919696050128&text=Hello+Satyam%2C+I+am+interested+in+hiring+you%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-green-500 transition-colors"
+            >
+              <BsWhatsapp />
+              <span className="text-[15px] ml-[6px]">WhatsApp</span>
+            </a>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">About</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Learning about me</span>
-            </p>
+            <a
+              href="https://drive.google.com/file/d/1K6BbOQqBZEtoNu1XqpDisApls2_82Iva/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors"
+            >
+              <span className="text-[15px] ml-[6px]">Download CV</span>
+            </a>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">
                 satyamsoni853@gmail.com
