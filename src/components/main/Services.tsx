@@ -11,7 +11,7 @@ const Services = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 md:px-10 w-full max-w-[1200px]">
         {/* Service 1 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">🌐</span>
             <h1 className="text-2xl font-bold text-white">Web Development</h1>
@@ -24,7 +24,7 @@ const Services = () => {
         </div>
 
         {/* Service 2 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">⚙️</span>
             <h1 className="text-2xl font-bold text-white">
@@ -40,7 +40,7 @@ const Services = () => {
         </div>
 
         {/* Service 3 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">🎨</span>
             <h1 className="text-2xl font-bold text-white">UI / UX Design</h1>
@@ -53,7 +53,7 @@ const Services = () => {
         </div>
 
         {/* Service 4 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">📱</span>
             <h1 className="text-2xl font-bold text-white">
@@ -68,7 +68,7 @@ const Services = () => {
         </div>
 
         {/* Service 5 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">🗄️</span>
             <h1 className="text-2xl font-bold text-white">
@@ -83,7 +83,7 @@ const Services = () => {
         </div>
 
         {/* Service 6 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">🚀</span>
             <h1 className="text-2xl font-bold text-white">
@@ -98,7 +98,7 @@ const Services = () => {
         </div>
 
         {/* Service 7 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">💼</span>
             <h1 className="text-2xl font-bold text-white">
@@ -113,7 +113,7 @@ const Services = () => {
         </div>
 
         {/* Service 8 */}
-        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-shadow duration-300">
+        <div className="border border-[#7042f88b] p-6 rounded-lg bg-[#0300145e] hover:shadow-lg hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 cursor-pointer">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-3xl">🧪</span>
             <h1 className="text-2xl font-bold text-white">

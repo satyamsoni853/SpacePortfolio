@@ -32,7 +32,7 @@ const SkillDataProvider = ({ src, width, height, index, name }: Props) => {
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
-      className="flex flex-col items-center justify-between gap-2 p-3 rounded-xl transition-transform hover:scale-105 z-10 bg-[#0b0c1e]/20 border border-[#7042f88b]/20 hover:border-[#7042f88b] shadow-sm w-36 h-36"
+      className="flex flex-col items-center justify-between gap-2 p-2 md:p-3 rounded-xl transition-transform hover:scale-105 z-10 bg-[#0b0c1e]/20 border border-[#7042f88b]/20 hover:border-[#7042f88b] shadow-sm w-28 h-28 md:w-36 md:h-36"
     >
       <div className="flex-1 flex items-center justify-center w-full">
         <Image

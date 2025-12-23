@@ -10,7 +10,7 @@ const WhoIAm = () => {
         Who I Am
       </h1>
 
-      <div className="flex flex-col items-center justify-center gap-10 w-full max-w-[900px] px-6 p-8 md:p-12 rounded-3xl bg-[#0300145e] border border-[#7042f88b] backdrop-blur-md shadow-2xl shadow-[#2A0E61]/50 relative overflow-hidden">
+      <div className="flex flex-col items-center justify-center gap-10 w-full max-w-[900px] px-6 p-8 md:p-12 rounded-3xl bg-[#0300145e] border border-[#7042f88b] backdrop-blur-md shadow-2xl shadow-[#2A0E61]/50 relative overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-[#2A0E61]/80 cursor-default">
         {/* Background Gradient for Card */}
         <div className="absolute top-0 left-0 w-full h-full bg-linear-to-r from-purple-500/10 to-cyan-500/10 z-[-1]" />
 

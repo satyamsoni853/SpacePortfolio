@@ -13,14 +13,14 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-20 relative pb-40 py-20 w-full"
+      className="flex flex-col items-center justify-center gap-10 md:gap-20 relative pb-20 md:pb-40 py-20 w-full"
     >
       <SkillText />
 
-      <div className="flex flex-col items-center gap-12 w-full z-20">
+      <div className="flex flex-col items-center gap-8 md:gap-12 w-full z-20">
         {/* Frontend */}
         <div className="flex flex-col items-center gap-6">
-          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-3xl font-bold tracking-wider">
+          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-bold tracking-wider text-center">
             FRONTEND TECHNOLOGIES
           </h3>
           <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
@@ -39,7 +39,7 @@ const Skills = () => {
 
         {/* Backend */}
         <div className="flex flex-col items-center gap-6">
-          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-3xl font-bold tracking-wider">
+          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-bold tracking-wider text-center">
             BACKEND TECHNOLOGIES
           </h3>
           <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
@@ -58,7 +58,7 @@ const Skills = () => {
 
         {/* Databases */}
         <div className="flex flex-col items-center gap-6">
-          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-3xl font-bold tracking-wider">
+          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-bold tracking-wider text-center">
             DATABASE TECHNOLOGIES
           </h3>
           <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
@@ -77,7 +77,7 @@ const Skills = () => {
 
         {/* Tools & DevOps */}
         <div className="flex flex-col items-center gap-6">
-          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-3xl font-bold tracking-wider">
+          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-bold tracking-wider text-center">
             TOOLS & DEVOPS
           </h3>
           <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
@@ -96,7 +96,7 @@ const Skills = () => {
 
         {/* UI Libraries */}
         <div className="flex flex-col items-center gap-6">
-          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-3xl font-bold tracking-wider">
+          <h3 className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-cyan-500 text-2xl md:text-3xl font-bold tracking-wider text-center">
             UI FRAMEWORKS & LIBRARIES
           </h3>
           <div className="flex flex-row justify-center flex-wrap gap-5 items-center">

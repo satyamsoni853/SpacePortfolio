@@ -31,7 +31,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-black dark:text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-3xl md:text-6xl font-bold text-black dark:text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -93,7 +93,7 @@ const HeroContent = () => {
             alt="Satyam Soni"
             height={650}
             width={650}
-            className="w-full max-w-[400px] md:max-w-[450px] aspect-square object-cover rounded-full border-4 border-[#7042f88b]/50 shadow-[0_0_30px_rgba(112,66,248,0.5)]"
+            className="w-full max-w-[400px] md:max-w-[450px] aspect-square object-cover rounded-full border-4 border-[#7042f88b]/50 shadow-[0_0_30px_rgba(112,66,248,0.5)] transition-all duration-300 hover:scale-105 hover:shadow-[0_0_60px_rgba(112,66,248,0.8)] cursor-pointer"
           />
         </div>
       </motion.div>

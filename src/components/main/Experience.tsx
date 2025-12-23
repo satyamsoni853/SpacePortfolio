@@ -12,7 +12,7 @@ const experienceData = [
     description:
       "Freelance Next.js Developer working on a travel booking website. Responsible for frontend development, API integration, dynamic data rendering, and building responsive, user-friendly UI components using Next.js while ensuring smooth performance and cross-device compatibility.",
   },
- 
+
   {
     title: "Front-End Developer",
     company: "Uniisphere Unified Pvt Ltd",
@@ -29,7 +29,7 @@ const experienceData = [
     description:
       "Completed Java Full Stack Development training. Gained hands-on experience in building end-to-end web applications. The training focused on practical implementation of Java, SQL, Servlets, and modern frontend technologies through real-world assignments and projects.",
   },
-   {
+  {
     title: "Front-End Developer",
     company: "Apex Planet Software Pvt Ltd",
     date: "Jan 2025 - Feb 2025",
@@ -80,7 +80,7 @@ const ExperienceCard = ({ item, index }: { item: any; index: number }) => {
 
       {/* Content Card */}
       <div className="w-full pl-10 md:w-5/12 md:pl-0">
-        <div className="p-6 rounded-lg border border-[#7042f88b] bg-[#0300145e] hover:bg-[#03001480] transition-colors duration-300 shadow-lg hover:shadow-[#2A0E61]/50 backdrop-blur-md">
+        <div className="p-6 rounded-lg border border-[#7042f88b] bg-[#0300145e] hover:bg-[#03001480] transition-all duration-300 shadow-lg hover:shadow-[#2A0E61]/50 backdrop-blur-md hover:scale-[1.02] cursor-pointer">
           <h3 className="text-2xl font-bold text-white mb-1">{item.title}</h3>
           <h4 className="text-lg text-purple-300 font-semibold">
             {item.company}

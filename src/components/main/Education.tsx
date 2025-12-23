@@ -21,7 +21,7 @@ const Education = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={slideInFromLeft(0.3)}
-          className="w-full max-w-[900px] p-[3px] rounded-2xl bg-linear-to-r from-purple-500 to-cyan-500"
+          className="w-full max-w-[900px] p-[3px] rounded-2xl bg-linear-to-r from-purple-500 to-cyan-500 transition-transform duration-300 hover:scale-[1.02] cursor-pointer"
         >
           <div className="flex flex-col md:flex-row items-center justify-between w-full p-8 rounded-2xl bg-[#030014] backgrop-blur-3xl min-h-[180px]">
             <div className="flex flex-col gap-3">
@@ -60,7 +60,7 @@ const Education = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={slideInFromRight(0.4)}
-          className="w-full max-w-[900px] p-[3px] rounded-2xl bg-linear-to-r from-cyan-500 to-purple-500"
+          className="w-full max-w-[900px] p-[3px] rounded-2xl bg-linear-to-r from-cyan-500 to-purple-500 transition-transform duration-300 hover:scale-[1.02] cursor-pointer"
         >
           <div className="flex flex-col md:flex-row items-center justify-between w-full p-8 rounded-2xl bg-[#030014] backgrop-blur-3xl min-h-[150px]">
             <div className="flex flex-col gap-3">
@@ -92,7 +92,7 @@ const Education = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={slideInFromLeft(0.5)}
-          className="w-full max-w-[900px] p-[3px] rounded-2xl bg-linear-to-r from-purple-500 to-cyan-500"
+          className="w-full max-w-[900px] p-[3px] rounded-2xl bg-linear-to-r from-purple-500 to-cyan-500 transition-transform duration-300 hover:scale-[1.02] cursor-pointer"
         >
           <div className="flex flex-col md:flex-row items-center justify-between w-full p-8 rounded-2xl bg-[#030014] backgrop-blur-3xl min-h-[150px]">
             <div className="flex flex-col gap-3">

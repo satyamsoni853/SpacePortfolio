@@ -14,7 +14,7 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, tags, code, demo }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] bg-[#0300145e] hover:shadow-[#2A0E61] transition-shadow duration-300 flex flex-col justify-between h-full">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] bg-[#0300145e] hover:shadow-[#2A0E61] transition-all duration-300 hover:scale-105 flex flex-col justify-between h-full cursor-pointer">
       <div>
         <Image
           src={src}
