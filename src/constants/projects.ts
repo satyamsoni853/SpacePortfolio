@@ -17,15 +17,7 @@ export const projectsData = [
         demo: 'https://manufac-nu.vercel.app/',
         image: '/projects/FuelPrep.png'
     },
-    {
-        id: 16,
-        projectName: 'Fashion Design Portfolio',
-        projectDesc: 'Portfolio website showcasing fashion designs, built with Next.js, GSAP, and Three.js.',
-        tags: ['Next.js', 'GSAP', 'Three.js'],
-        code: '',
-        demo: 'https://sneh-drall-fashion-design-portfolio-eight.vercel.app/',
-        image: '/projects/FashionDesgin.png'
-    },
+  
     {
         id: 17,
         projectName: 'TravelTips',
