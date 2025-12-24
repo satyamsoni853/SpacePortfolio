@@ -27,7 +27,11 @@ export default function RootLayout({
         className={`${inter.className} bg-white dark:bg-[#030014] text-black dark:text-gray-200`}
         suppressHydrationWarning
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+        >
           <Preloader />
           {/* Stars only visible in dark mode */}
           <div className="absolute top-0 left-0 w-full h-full z-[1]">

@@ -16,32 +16,32 @@ export default function Home() {
         <section className="snap-start w-full min-h-screen flex items-center justify-center">
           <Hero />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <WhoIAm />
         </section>
-        <section className="snap-start w-full min-h-screen">
+        <section className="snap-start w-full h-auto py-20">
           <Skills />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <Experience />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <Services />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <Education />
         </section>
 
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <Projects />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <Certification />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto py-20 flex items-center justify-center">
           <Contact />
         </section>
-        <section className="snap-start w-full min-h-screen flex items-center justify-center">
+        <section className="snap-start w-full h-auto flex items-center justify-center">
           <Footer />
         </section>
       </div>

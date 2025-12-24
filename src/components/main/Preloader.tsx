@@ -14,7 +14,7 @@ const Preloader = () => {
     const timer = setTimeout(() => {
       setShow(false);
       document.body.style.overflow = "auto";
-    }, 4500); // Increased duration to accommodate typing
+    }, 2000); // Reduced duration for faster entry
 
     return () => {
       clearTimeout(timer);
@@ -36,14 +36,14 @@ const Preloader = () => {
               <TypeAnimation
                 sequence={[
                   "Welcome to",
-                  1000,
+                  500,
                   "Welcome to Satyam Soni",
-                  1000,
+                  500,
                   "Welcome to Satyam Soni Developer Space",
-                  1000,
+                  500,
                 ]}
                 wrapper="span"
-                speed={50}
+                speed={75}
                 repeat={0}
                 cursor={true}
               />

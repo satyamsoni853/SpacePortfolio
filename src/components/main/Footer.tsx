@@ -10,9 +10,9 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-2xl p-[15px] z-[20] relative border-t border-[#7042f88b] backdrop-blur-md">
+    <div className="w-full h-auto bg-transparent text-gray-200 shadow-2xl p-[15px] z-[20] relative border-t border-[#7042f88b] backdrop-blur-md">
       <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+        <div className="w-full h-auto flex flex-row items-start justify-around flex-wrap gap-5">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
             <a
@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
+        <div className="mb-[20px] text-[15px] text-center mt-10">
           &copy; Satyam Soni 2025 Inc. All rights reserved
         </div>
       </div>
